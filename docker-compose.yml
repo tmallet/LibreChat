@@ -27,7 +27,6 @@ services:
       - ./images:/app/client/public/images
       - ./uploads:/app/uploads
       - ./logs:/app/api/logs
-    volumes:
       - type: bind
         source: ./librechat.yaml
         target: /app/librechat.yaml
